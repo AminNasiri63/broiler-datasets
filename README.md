@@ -1,5 +1,5 @@
 # Broiler Datasets Repository
-Welcome to the **Broiler Datasets Repository** — a collection of curated datasets focused on broiler detection, broiler behavior, pose estimation, and re-identification.
+Welcome to the **Broiler Datasets Repository** - a collection of curated datasets focused on broiler detection, broiler behavior, pose estimation, and re-identification.
 These datasets were used to develop and evaluate deep learning models for precision livestock farming applications, including video classification and pose estimation. Our published research leverages these datasets to advance automated broiler behavior analysis.
 
 The datasets were created to support research in:
