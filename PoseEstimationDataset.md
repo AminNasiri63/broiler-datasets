@@ -25,7 +25,7 @@ Each broiler image is annotated with 7 anatomical key points:
 
 ![lameness](https://github.com/user-attachments/assets/84c5b68a-53a8-4315-8e62-20cbb663f33a)
 
-
+---
 
 # 🗂️ Data Structure
 
@@ -46,6 +46,7 @@ Each broiler image is annotated with 7 anatomical key points:
     └── ...
     ├── 📄 CollectedData.csv 
 ```
+---
 
 # 📝 Annotation Format
 Each ```CollectedData.csv``` file has the following structure:
@@ -63,6 +64,8 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 ```
 **Note**: Missing values indicate that the key point is not visible in the image.Data Summary
 
+---
+
 # 📑 Data Summary
 | Attribute            | Value    |
 | -------------------- | -------- |
@@ -73,9 +76,12 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 | Key points per image | 7        |
 | Annotation format    | CSV      |
 
+---
 
-## 📦 dataset Download
+# 📦 dataset Download
 You can directly download the dataset Download from:
+
+---
 
 # 📚 Citation
 If you use this dataset, please cite:
@@ -84,14 +90,19 @@ If you use this dataset, please cite:
 Nasiri, A., Yoder, J., Zhao, Y., Hawkins, S., Prado, M. and Gan, H., 2022. Pose estimation-based lameness recognition in broiler using CNN-LSTM network. Computers and Electronics in Agriculture, 197, p.106931.
 DOI: https://doi.org/10.1016/j.compag.2022.106931
 ```
+---
 
 # ✉️ Contact
 * **Name**: Hao Gan -- Amin Nasiri
 * **Email**: hgan1@utk.edu -- aminnassiri63@gmail.com
 * **Affiliation**: Department of Biosystems Engineering and Soil Science, The University of Tennessee, Knoxville, TN, USA
 
+---
+
 # 📜 License
 MIT License.
+
+---
 
 # 🤝 Contributing
 Contributions are welcome!
