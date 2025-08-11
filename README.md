@@ -24,14 +24,64 @@ Each broiler image is annotated with 7 anatomical key points:
 
 
 
+![lameness](https://github.com/user-attachments/assets/cec93c8d-b665-4f7d-9493-9d73d491691c)
+
+# Data Structure
+
+```
+📁 Lameness/
+│
+└── 📁 Broiler_ID/
+    ├── 📄 img50.png
+    ├── 📄 img52.png
+    └── ...
+    ├── 📄 CollectedData.csv
+
+└── ...
+
+└── 📁 Broiler_ID/
+    ├── 📄 img15.png
+    ├── 📄 img17.png
+    └── ...
+    ├── 📄 CollectedData.csv 
+```
+# Annotation Format
+Each ```CollectedData.csv``` file has the following structure:
+
+* **First row**: ```bodyparts``` -- lists all annotated key points (each with x and y columns).
+* **Second row**: ```coords``` -- specifies the coordinate axes (x, y).
+* **Subsequent rows**: One row per image, starting with the file name followed by coordinates for each key point.
+
+**Example**:
+```
+bodyparts    Center  Center  Head  Head  Tail  Tail  LeftKnee  LeftKnee  LeftHeel  LeftHeel  RightKnee  RightKnee  RightHeel  RightHeel
+coords       x       y       x     y     x     y     x         y         x         y         x          y          x          y
+img50.png    695.27  156.31  659.05 88.39 745.72 171.18         ...      697.21 197.70  690.09 209.35    ...        ...        ...
+img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 190.59  688.80 208.70    ...        ...        ...
+```
+**Note**: Missing values indicate that the key point is not visible in the image.Data Summary
+
+# Data Summary
+| Attribute            | Value    |
+| -------------------- | -------- |
+| Number of broilers   | 240      |
+| Total images         | 9,214    |
+| Image resolution     | 1280×720 |
+| Image format         | PNG      |
+| Key points per image | 7        |
+| Annotation format    | CSV      |
 
 
-* **YOLO Format Compatible**: Creates annotation files in the format required by YOLO models.
-* **Intuitive Interface**: Left-click to draw boxes, right-click to delete boxes, middle mouse button to define class.
-* **Automatic File Handling**: Automatically reads and displays existing annotations, or creates new ones as needed.
-* **Multiple Image Format Support**: Works with various image formats.
-* **Organized Output**: Creates a dedicated Results folder in the same directory as your images folder.
-* **Persistence**: Saves annotation data in text files compatible with YOLO frameworks.
+# Citation
+If you use this dataset, please cite:
+
+```
+Nasiri, A., Yoder, J., Zhao, Y., Hawkins, S., Prado, M. and Gan, H., 2022. Pose estimation-based lameness recognition in broiler using CNN-LSTM network. Computers and Electronics in Agriculture, 197, p.106931.
+DOI: https://doi.org/10.1016/j.compag.2022.106931
+```
+
+
+```
 
 # Installation
 **Prerequisites**
