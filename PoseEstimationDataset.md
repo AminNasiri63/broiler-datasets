@@ -9,7 +9,7 @@ The dataset was created to support research in:
 * Pose estimation and keypoint detection.
 
 
-# Keypoint Definitions & Pose Skeleton
+# 📍 Keypoint Definitions & Pose Skeleton
 Each broiler image is annotated with 7 anatomical key points:
 
 | Key Point ID | Name      | Description              |
@@ -27,7 +27,7 @@ Each broiler image is annotated with 7 anatomical key points:
 
 
 
-# Data Structure
+# 🗂️ Data Structure
 
 ```
 📁 Lameness/
@@ -46,7 +46,8 @@ Each broiler image is annotated with 7 anatomical key points:
     └── ...
     ├── 📄 CollectedData.csv 
 ```
-# Annotation Format
+
+# 📝 Annotation Format
 Each ```CollectedData.csv``` file has the following structure:
 
 * **First row**: ```bodyparts``` -- lists all annotated key points (each with x and y columns).
@@ -62,7 +63,7 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 ```
 **Note**: Missing values indicate that the key point is not visible in the image.Data Summary
 
-# Data Summary
+# 📑 Data Summary
 | Attribute            | Value    |
 | -------------------- | -------- |
 | Number of broilers   | 240      |
@@ -76,7 +77,7 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 ## 📦 dataset Download
 You can directly download the dataset Download from:
 
-# Citation
+# 📚 Citation
 If you use this dataset, please cite:
 
 ```
@@ -84,7 +85,7 @@ Nasiri, A., Yoder, J., Zhao, Y., Hawkins, S., Prado, M. and Gan, H., 2022. Pose 
 DOI: https://doi.org/10.1016/j.compag.2022.106931
 ```
 
-# Contact
+# ✉️ Contact
 * **Name**: Hao Gan -- Amin Nasiri
 * **Email**: hgan1@utk.edu -- aminnassiri63@gmail.com
 * **Affiliation**: Department of Biosystems Engineering and Soil Science, The University of Tennessee, Knoxville, TN, USA
