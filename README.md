@@ -14,18 +14,18 @@ The datasets were created to support research in:
 # 📑 Included Datasets
 | Dataset Name              | Description                                | README File                                                                              |
 |---------------------------|--------------------------------------------|------------------------------------------------------------------------------------------|
-| Lameness Pose Dataset     | Images and keypoint annotations for broiler lameness pose estimation   | [Lameness README](Lameness_README.md)                        |
-| Behavior Recognition      | Videos categorized into normal, preening, and stretching behaviors     | [Behavior Recognition README](BehaviorRecognition_README.md) |
-| Broiler Re-Identification | Manually cropped multi-view images for broiler re-ID                   | [Re-Identification README](ReID_README.md)                   |
+| Lameness Pose Dataset     | Images and keypoint annotations for broiler lameness pose estimation   | [Pose Estimation README](PoseEstimationDataset.md)                        |
+| Behavior Recognition      | Videos categorized into normal, preening, and stretching behaviors     | [Behavior Recognition README](BehaviorRecognitionDataset.md) |
+| Broiler Re-Identification | Manually cropped multi-view images for broiler re-ID                   | [Re-Identification README](Re-identificationDataset.md)                   |
 
 ---
 
-# Future Work
+# 🚀 Future Work
 We have an ongoing effort to expand these datasets with more annotated data to improve the robustness and accuracy of broiler behavior and identification models.
 
 ---
 
-# How to Use
+# ⚙️ How to Use
 * For each dataset, please refer to its detailed README file in .md format, which includes download instructions and usage details.
 * You can download and explore the datasets individually.
 * Feel free to raise issues or contribute!
