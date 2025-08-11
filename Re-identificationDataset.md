@@ -31,13 +31,15 @@ The dataset was created to support research in:
 ---
 
 # 📑 Data Summary
-| Attribute            | Value    |
-| -------------------- | -------- |
+| Attribute            | Value                   |
+| -------------------- | ------------------------|
 | Number of broilers   | 787                     |
 | Images per broiler   | 9 - 71                  |
 | Total images         | 27,930                  |
 | Image format         | jpg                     |
+| Image Cropping       | Manually cropped        |
 | Image resolution     | Variable across samples |
+| Views                | Multiple viewing angles |
 
 ---
 
