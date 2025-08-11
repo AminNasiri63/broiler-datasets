@@ -7,7 +7,7 @@ The dataset was created to support research in:
 * Animal welfare monitoring.
 * Computer vision–based lameness assessment.
 * Pose estimation and keypoint detection.
-
+---
 
 # 📍 Keypoint Definitions & Pose Skeleton
 Each broiler image is annotated with 7 anatomical key points:
