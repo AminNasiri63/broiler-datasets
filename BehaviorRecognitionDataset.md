@@ -6,8 +6,9 @@ The dataset was created to support research in:
 * Video recognition-based pipeline to detect and quantify the broilers’ behaviors.
 * welfare monitoring.
 
+---
 
-# Dataset Contents
+# 🗄️ Dataset Contents
 Each broiler image is annotated with 7 anatomical key points:
 
 | Behavior Class | Number of Videos | Video Format | Resolution (pixels) |
@@ -16,8 +17,9 @@ Each broiler image is annotated with 7 anatomical key points:
 | Preening       | 502              | MP4          | 150 × 150           |
 | Stretching     | 516              | MP4          | 150 × 150           |
 
+---
 
-# Data Structure
+# 🗂️ Data Structure
 
 ```
 📁 BehaviorRecognition/
@@ -39,7 +41,10 @@ Each broiler image is annotated with 7 anatomical key points:
 
 ```
 
-# Data Summary
+---
+
+
+# 📑 Data Summary
 | Attribute            | Value    |
 | -------------------- | -------- |
 | Number of classes    | 3        |
@@ -47,12 +52,15 @@ Each broiler image is annotated with 7 anatomical key points:
 | video resolution     | 150×150  |
 | Video format         | mp4      |
 
+---
 
 ## 📦 dataset Download
 
 You can directly download the dataset Download from:
 
-# Citation
+---
+
+# 📚 Citation
 If you use this dataset, please cite:
 
 ```
@@ -60,13 +68,19 @@ Nasiri, A., Zhao, Y. and Gan, H., 2024. Automated detection and counting of broi
 DOI: https://doi.org/10.1016/j.compag.2024.108930
 ```
 
-# Contact
+---
+
+# ✉️ Contact
 * **Name**: Hao Gan -- Amin Nasiri
 * **Email**: hgan1@utk.edu -- aminnassiri63@gmail.com
 * **Affiliation**: Department of Biosystems Engineering and Soil Science, The University of Tennessee, Knoxville, TN, USA
 
+---
+
 # 📜 License
 MIT License.
+
+---
 
 # 🤝 Contributing
 Contributions are welcome!
