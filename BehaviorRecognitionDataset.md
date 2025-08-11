@@ -65,8 +65,9 @@ DOI: https://doi.org/10.1016/j.compag.2024.108930
 * **Email**: hgan1@utk.edu -- aminnassiri63@gmail.com
 * **Affiliation**: Department of Biosystems Engineering and Soil Science, The University of Tennessee, Knoxville, TN, USA
 
-# License
+# 📜 License
 MIT License.
 
-# Contributing
+# 🤝 Contributing
 Contributions are welcome!
+
