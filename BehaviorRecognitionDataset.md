@@ -1,84 +1,59 @@
-# Broiler Lameness Pose Estimation Dataset
-This dataset contains a large-scale benchmark of **240 broilers** with a total of **9,214 high-resolution** images (1280×720, PNG format).
-It is designed for **broiler pose estimation** and **lameness detection tasks**, and includes manually annotated anatomical key points and a defined pose skeleton.
-All annotations are stored in Comma-Separated Values (CSV) format.
+# Broiler Behavior Recognition Dataset
+This dataset includes different videos of various broilers’ behaviors gathered to train a **video classifier model**. The collected videos were manually classified into three classes: **preening**, **stretching**, and **normal**. The **preening** class contains frames where a broiler preens its feathers with its beak; the **stretching** class includes frames where a broiler stretches one wing and one leg; and the **normal** class represents other broiler behaviors such as sitting, standing, feeding, and drinking. To enhance the accuracy of the video classifier model’s results, efforts were made to ensure that each video contained only one broiler. All videos were recorded from **commercial farms** using a **top-view camera** setup.
 
 The dataset was created to support research in:
-* Animal welfare monitoring.
-* Computer vision–based lameness assessment.
-* Pose estimation and keypoint detection.
+* Automated detection and classification broiler behaviors.
+* Video recognition-based pipeline to detect and quantify the broilers’ behaviors.
+* welfare monitoring.
 
 
-# Keypoint Definitions & Pose Skeleton
+# Dataset Contents
 Each broiler image is annotated with 7 anatomical key points:
 
-| Key Point ID | Name      | Description              |
-| ------------ | --------- | ------------------------ |
-| 1            | Center    | Center point of the body |
-| 2            | Head      | Tip of the head          |
-| 3            | Tail      | Tip of the tail          |
-| 4            | RightKnee | Right knee joint         |
-| 5            | RightHeel | Right heel joint         |
-| 6            | LeftKnee  | Left knee joint          |
-| 7            | LeftHeel  | Left heel joint          |
-
-
-![lameness](https://github.com/user-attachments/assets/84c5b68a-53a8-4315-8e62-20cbb663f33a)
-
+| Behavior Class | Number of Videos | Video Format | Resolution (pixels) |
+|----------------|------------------|--------------|---------------------|
+| Normal         | 501              | MP4          | 150 × 150           |
+| Preening       | 502              | MP4          | 150 × 150           |
+| Stretching     | 516              | MP4          | 150 × 150           |
 
 
 # Data Structure
 
 ```
-📁 Lameness/
+📁 BehaviorRecognition/
 │
-└── 📁 Broiler_ID/
-    ├── 📄 img50.png
-    ├── 📄 img52.png
+└── 📁 Normal/
+    ├── 📄 N0.mp4
+    ├── 📄 N1.mp4
     └── ...
-    ├── 📄 CollectedData.csv
 
-└── ...
-
-└── 📁 Broiler_ID/
-    ├── 📄 img15.png
-    ├── 📄 img17.png
+└── 📁 Preening/
+    ├── 📄 P0.mp4
+    ├── 📄 P1.mp4
     └── ...
-    ├── 📄 CollectedData.csv 
-```
-# Annotation Format
-Each ```CollectedData.csv``` file has the following structure:
 
-* **First row**: ```bodyparts``` -- lists all annotated key points (each with x and y columns).
-* **Second row**: ```coords``` -- specifies the coordinate axes (x, y).
-* **Subsequent rows**: One row per image, starting with the file name followed by coordinates for each key point.
+└── 📁 Stretching/
+    ├── 📄 S0.mp4
+    ├── 📄 S1.mp4
+    └── ...
 
-**Example**:
 ```
-bodyparts    Center  Center  Head  Head  Tail  Tail  LeftKnee  LeftKnee  LeftHeel  LeftHeel  RightKnee  RightKnee  RightHeel  RightHeel
-coords       x       y       x     y     x     y     x         y         x         y         x          y          x          y
-img50.png    695.27  156.31  659.05 88.39 745.72 171.18         ...      697.21 197.70  690.09 209.35    ...        ...        ...
-img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 190.59  688.80 208.70    ...        ...        ...
-```
-**Note**: Missing values indicate that the key point is not visible in the image.Data Summary
 
 # Data Summary
 | Attribute            | Value    |
 | -------------------- | -------- |
-| Number of broilers   | 240      |
-| Total images         | 9,214    |
-| Image resolution     | 1280×720 |
-| Image format         | PNG      |
-| Key points per image | 7        |
-| Annotation format    | CSV      |
+| Number of classes    | 3        |
+| Total videos         | 1,519    |
+| video resolution     | 150×150  |
+| Video format         | mp4      |
 
 
 # Citation
 If you use this dataset, please cite:
 
 ```
-Nasiri, A., Yoder, J., Zhao, Y., Hawkins, S., Prado, M. and Gan, H., 2022. Pose estimation-based lameness recognition in broiler using CNN-LSTM network. Computers and Electronics in Agriculture, 197, p.106931.
-DOI: https://doi.org/10.1016/j.compag.2022.106931
+Nasiri, A., Zhao, Y. and Gan, H., 2024. Automated detection and counting of broiler behaviors using a video recognition system. Computers and Electronics in Agriculture, 221, p.108930.
+DOI: https://doi.org/10.1016/j.compag.2024.108930
 ```
 
 # Contact
