@@ -48,6 +48,10 @@ Each broiler image is annotated with 7 anatomical key points:
 | Video format         | mp4      |
 
 
+## 📦 dataset Download
+
+You can directly download the dataset Download from:
+
 # Citation
 If you use this dataset, please cite:
 
