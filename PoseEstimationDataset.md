@@ -23,8 +23,9 @@ Each broiler image is annotated with 7 anatomical key points:
 | 7            | LeftHeel  | Left heel joint          |
 
 
+![lameness](https://github.com/user-attachments/assets/84c5b68a-53a8-4315-8e62-20cbb663f33a)
 
-![lameness](https://github.com/user-attachments/assets/cec93c8d-b665-4f7d-9493-9d73d491691c)
+
 
 # Data Structure
 
