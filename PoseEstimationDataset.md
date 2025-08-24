@@ -78,7 +78,7 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 
 ---
 
-# 📥 dataset Download
+# 📥 Dataset Download
 You can directly download the dataset from:
 
 ---
