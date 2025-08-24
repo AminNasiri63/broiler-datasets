@@ -62,7 +62,7 @@ coords       x       y       x     y     x     y     x         y         x      
 img50.png    695.27  156.31  659.05 88.39 745.72 171.18         ...      697.21 197.70  690.09 209.35    ...        ...        ...
 img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 190.59  688.80 208.70    ...        ...        ...
 ```
-**Note**: Missing values indicate that the key point is not visible in the image.Data Summary
+**Note**: Missing values indicate that the key point is not visible in the image.
 
 ---
 
@@ -79,7 +79,7 @@ img52.png    665.51  138.20  647.40 70.28 712.73 151.13         ...      688.15 
 ---
 
 # 📥 dataset Download
-You can directly download the dataset Download from:
+You can directly download the dataset from:
 
 ---
 
