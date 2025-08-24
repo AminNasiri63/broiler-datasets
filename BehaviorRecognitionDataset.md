@@ -4,7 +4,7 @@ This dataset includes different videos of various broilers’ behaviors gathered
 The dataset was created to support research in:
 * Automated detection and classification broiler behaviors.
 * Video recognition-based pipeline to detect and quantify the broilers’ behaviors.
-* welfare monitoring.
+* Welfare monitoring.
 
 ---
 
