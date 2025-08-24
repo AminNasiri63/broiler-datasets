@@ -9,7 +9,7 @@ The dataset was created to support research in:
 ---
 
 # 🗄️ Dataset Contents
-Each broiler image is annotated with 7 anatomical key points:
+This dataset contains annotated broiler videos classified into behavioral categories:
 
 | Behavior Class | Number of Videos | Video Format | Resolution (pixels) |
 |----------------|------------------|--------------|---------------------|
