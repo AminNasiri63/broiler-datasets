@@ -56,7 +56,7 @@ This dataset contains annotated broiler videos classified into behavioral catego
 
 ## 📥 Dataset Download
 
-You can directly download the dataset Download from: [![Download Dataset](https://img.shields.io/badge/Download-Dataset-blue)](https://www.ut-smartagriculture.com/datasets/broiler-behavior-recognition-dataset)
+You can directly download the dataset from: [![Download Dataset](https://img.shields.io/badge/Download-Dataset-blue)](https://www.ut-smartagriculture.com/datasets/broiler-behavior-recognition-dataset)
 
 
 ---
